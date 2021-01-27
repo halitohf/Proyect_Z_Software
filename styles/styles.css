@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #462B45;
+    color: #F5EAEF;
+}
+
+.content {
+    text-align: center;
+    background-color: #884A6F;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+.post {
+    background-color: #884A6f;
+    width: auto;
+    height: auto;
+}
+
+div {
+    background-color:#D0BCC4;
+    border-radius: 5%;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.list-menu {
+    color: turquoise;
+    list-style: none;
+}
+a:link {
+    color:pink
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.img-content {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
