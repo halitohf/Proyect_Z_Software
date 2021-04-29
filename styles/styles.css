@@ -4,6 +4,10 @@ body {
     color: #F5EAEF;
 }
 
+h1 {
+    text-align: center;
+}
+
 .content {
     text-align: center;
     background-color: #884A6F;
@@ -19,6 +23,7 @@ body {
 }
 
 div {
+    display: flex;
     background-color:#D0BCC4;
     border-radius: 5%;
 }
@@ -29,11 +34,21 @@ footer {
 }
 
 .list-menu {
+    display: flex;
+    padding: 10px;
     color: turquoise;
     list-style: none;
 }
+
+.list-menu li {
+    width: 20px 100px;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
 a:link {
-    color:pink
+    color:pink;
+    list-style: none;
 }
 
 a:visited {
